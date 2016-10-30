@@ -1,14 +1,24 @@
 body{
 	font-family: arial;
 	margin-right: 0;
-	margin-left: 0;
-	
-}
-#logo{
-	
+	margin-left: 0;	
 }
 .link{
 	text-decoration: none;
+	color: white;
+	padding: 10px;
+	font-weight: bold;
+}
+#iniciar {
+	background-color: #14C984;
+	opacity: 0.5;
+	float: right;
+	width: 20px;
+	padding: 10px;
+	text-align: center;
+}
+#menu {
+	clear: both;
 }
 #contenedor{
 	background-image: url(https://escritoradebolsillo.files.wordpress.com/2015/06/librosss.jpg);
