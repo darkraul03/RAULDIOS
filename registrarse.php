@@ -17,11 +17,11 @@
 			<br/><br/>
 			<label> Contraseña </label>
 			<input type="password" name="contraseña"/>
+			<br/><br/>
 			<label> Confirmar Contraseña </label>
-			<br/><br/>
 			<input type="password" name="confirmar"/>
-			<label> Universidad </label>
 			<br/><br/>
+			<label> Universidad </label>
 			<select name="universidad">
 				<option> Universidad San Ignacio de Loyola </option>
 				<option> Pontificie Universidad Catolica del Peru </option>
@@ -29,6 +29,7 @@
 				<option> Universidad Pacifico </option>
 				<option> Universidad Cesar Vallejo</option>
 			</select>
+			<br/><br/>
 			<input type="submit" value= "Registrarme"/>
 		</form>
 	</section>
