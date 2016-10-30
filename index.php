@@ -7,13 +7,12 @@
 <body>
 	<section id="contenedor">
 		<header>
-			<aside id="titulo">
-				<img id="logo" src="logo/F_logo_w.png" height="250px" />
-			</aside>
 			<aside id="iniciar">
-			    //
 				<a class="link" href="inicio_sesion.php"><span>Iniciar Sesion</span></a>
 				<a class="link" href="registrarse.php"><span>Registrarme</span></a>
+			</aside>
+			<aside id="titulo">
+				<img id="logo" src="logo/F_logo_w.png" height="250px" />
 			</aside>
 		</header>
 		<aside id="menu">
