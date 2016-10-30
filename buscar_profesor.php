@@ -23,6 +23,7 @@
 				<option> Universidad Pacifico </option>
 				<option> Universidad Cesar Vallejo</option>
 			</select>
+			<br/><br/>
 			<label> Curso  </label>
 			<input type="text" name="curso"/>
 			<br/><br/>
