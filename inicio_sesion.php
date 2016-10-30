@@ -13,6 +13,7 @@
 			<br/><br/>
 			<label> Contraseña </label>
 			<input type="password" name="password"/>
+			<br/><br/>
 			<input type="submit" value= "Iniciar Sesion"/>
 		</form>
 	</section>
