@@ -5,13 +5,12 @@ body{
 	
 }
 #logo{
-	background-color: #14C984;
+	
 }
 .link{
 	text-decoration: none;
 }
 #contenedor{
-	border: 2px solid red;
 	background-image: url(https://escritoradebolsillo.files.wordpress.com/2015/06/librosss.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -48,4 +47,51 @@ footer {
 	width: 30%;
 	padding-top: 50px;
 	padding-right: 50px;
+}
+form {				
+		font-size: 30px;
+		font-weight: bold;
+		margin: 50px 200px;
+	}
+	label {
+		text-align: left;
+	}
+	input[type=text] {
+		border: none;
+		border-bottom: 5px solid #585858;
+		width: 100%;
+		font-size: 30px;
+		margin: 20px 0;
+	}
+	input[type=password] {
+		border: none;
+		border-bottom: 5px solid #585858;
+		width: 100%;
+		font-size: 30px;
+		margin: 20px 0;
+	}
+	input[type=submit] {
+		font-size: 30px;
+		background-color: green;
+		color: white;
+		width: 100%;
+		padding: 20px;
+	}
+		input[type=submit]:hover {
+		background-color: #0B610B;
+	}
+#inicio {
+	background-image: url(https://escritoradebolsillo.files.wordpress.com/2015/06/librosss.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 700px;
+}
+#h1inicio {
+	color: white;
+	font-size: 50px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+.labelinicio {
+	color: white;
 }
