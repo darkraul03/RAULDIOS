@@ -7,7 +7,7 @@
 </head>
 <body>
 	<section>
-		<h1> Registrarse </h1>
+		<h1 id="h1registrarse"> Registrarse </h1>
 		<form>
 			<label>Correo Electronico</label>
 			<input type="text" name="correo"/>
@@ -33,21 +33,6 @@
 			<input type="submit" value= "Registrarme"/>
 		</form>
 	</section>
-	<footer>
-		<section>
-			<span>Contactanos</span>
-			<span>Soporte</span>
-			<span>Ayuda</span>
-			<span>Politica de Privacidad</span>
-			<span>Terminos de Uso</span>
-		</section>
-		<section>
-			<img src=""/>
-			<img src=""/>
-			<img src=""/>
-			<img src=""/>
-		</section>
-		<p>&copy; <?php echo $fecha ?></p>
-	</footer>
+	<?php include 'pie.php' ?>		
 </body>
 </html>
