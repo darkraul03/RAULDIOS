@@ -13,6 +13,7 @@
 			</aside>
 			<aside id="iniciar">
 				<a class="link" href="inicio_sesion.php"><span>Iniciar Sesion</span></a>
+				<a class="link" href="registrarse.php"><span>Registrarme</span></a>
 			</aside>
 		</header>
 		<aside>
