@@ -1,0 +1,124 @@
+body{
+	font-family: arial;
+	margin: 0;	
+}
+header{
+	background-color: rgba(0, 0, 0,0.3);
+}
+.link{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	font-weight: bold;
+}
+#iniciar {
+	background-color: rgba(20, 201, 132,0.5);
+	float:right;
+	padding: 10px;
+	text-align: center;
+	width:30%;
+}
+#menu {
+	clear: both;
+	width: 20%;
+	font-size:22px;
+	background-color: rgba(23, 51, 79, 0.7);
+	padding:30px 0 30px 10px;
+	min-height: 720px
+}
+#menu span{
+	margin-left: 10px
+}
+#contenedor{
+	background-image: url(https://escritoradebolsillo.files.wordpress.com/2015/06/librosss.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 1000px;
+}
+#titulo{
+	margin-right:50%;
+}
+footer {
+	background-color: #14C984;
+	height: 230px;
+	margin: 0;
+}
+
+#copyright {
+	color: white;
+	font-size: 20px;
+    padding-top: 10px;
+	padding-left: 45%;
+}
+
+#servicios {
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 50px;
+	padding-right: 50px;
+}
+#social {
+	padding-top: 25px;
+	padding-left: 38%;
+}
+.redes{
+	width: 70px;
+	border-radius: 100%;
+	padding: 10px;
+}
+form {				
+		font-size: 30px;
+		font-weight: bold;
+		margin: 50px 200px;
+	}
+	label {
+		text-align: left;
+	}
+	input[type=text] {
+		border: none;
+		border-bottom: 5px solid #585858;
+		width: 100%;
+		font-size: 30px;
+		margin: 20px 0;
+	}
+	input[type=password] {
+		border: none;
+		border-bottom: 5px solid #585858;
+		width: 100%;
+		font-size: 30px;
+		margin: 20px 0;
+	}
+	input[type=submit] {
+		font-size: 30px;
+		background-color: #14C984;
+		color: white;
+		width: 100%;
+		padding: 20px;
+	}
+	select {
+		border: none;
+		border-bottom: 5px solid #585858;
+		width: 100%;
+		font-size: 30px;
+		margin: 20px 0;
+	}
+	input[type=submit]:hover {
+		background-color: #0E8557;
+	}
+#inicio {
+	min-height: 700px;
+}
+#h1inicio {
+	font-size: 50px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+.labelinicio {
+	
+}
+#h1registrarse {
+	font-size: 50px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
