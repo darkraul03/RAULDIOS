@@ -1,3 +1,4 @@
+	<?php $fec = date('Y') ?>
 	<footer>
 		<section id="servicios">
 			<span>Contactanos</span>
@@ -17,5 +18,5 @@
 			<a href="http://www.twitter.com"><img src="img/twitter_little_pag.jpg"/></a>
 			<a href="http://www.linkdin.com"><img src="img/linkdin_little_pag.jpg"/></a>
 		</section>
-		<p id="copyright">&copy Nexus <?php echo $fecha?></p>
+		<p id="copyright">&copy Nexus <?php echo $fec ?></p>
 	</footer>
