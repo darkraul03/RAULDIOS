@@ -15,6 +15,12 @@
 			<label> Usuario </label>
 			<input type="text" name="usuario"/>
 			<br/><br/>
+			<label> Nombre </label>
+			<input type="text" name="nombre"/>
+			<br/><br/>
+			<label> Apellido </label>
+			<input type="text" name="apellido"/>
+			<br/><br/>
 			<label> Contraseña </label>
 			<input type="password" name="contraseña"/>
 			<br/><br/>
