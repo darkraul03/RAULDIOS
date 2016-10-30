@@ -31,20 +31,7 @@
 		</form>
 	</section>
 	<footer>
-		<section>
-			<span>Contactanos</span>
-			<span>Soporte</span>
-			<span>Ayuda</span>
-			<span>Politica de Privacidad</span>
-			<span>Terminos de Uso</span>
-		</section>
-		<section>
-			<img src=""/>
-			<img src=""/>
-			<img src=""/>
-			<img src=""/>
-		</section>
-		<p>&copy; <?php echo $fecha ?></p>
+		<?php include 'pie.php' ?>
 	</footer>
 </body>
 </html>
