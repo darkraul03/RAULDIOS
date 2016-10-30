@@ -1,7 +1,8 @@
-?php $fecha = date('Y')?>
+<?php $fecha = date('Y')?>
 <!Doctype html>
 <html>
-<head>Registrarse</title>
+<head>
+	<title>Registrarse</title>
 	<link rel="stylesheet" href="estilos/estilo.css" />
 </head>
 <body>
@@ -17,8 +18,10 @@
 			<label> Contraseña </label>
 			<input type="password" name="contraseña"/>
 			<label> Confirmar Contraseña </label>
+			<br/><br/>
 			<input type="password" name="confirmar"/>
 			<label> Universidad </label>
+			<br/><br/>
 			<select name="universidad">
 				<option> Universidad San Ignacio de Loyola </option>
 				<option> Pontificie Universidad Catolica del Peru </option>

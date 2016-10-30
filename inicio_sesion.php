@@ -1,7 +1,8 @@
 <?php $fecha = date('Y')?>
 <!Doctype html>
 <html>
-<head>Inicio Sesion</title>
+<head>
+	<title>Inicio Sesion</title>
 	<link rel="stylesheet" href="estilos/estilo.css" />
 </head>
 <body>
