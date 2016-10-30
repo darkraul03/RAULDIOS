@@ -1,4 +1,3 @@
-<?php $fecha = date('Y')?>
 <!Doctype html>
 <html>
 <head>
@@ -17,7 +16,7 @@
 				<a class="link" href="registrarse.php"><span>Registrarme</span></a>
 			</aside>
 		</header>
-		<aside>
+		<aside id="menu">
 			<a href="buscar_profesor.php"><p><img src="img/profesor_little.png"/>Profesores</p></a>
 			<a><p><img src="img/star.png"/>Destacados</p></a>
 			<a><p><img src="img/perfil.png"/>Perfil</p></a>
