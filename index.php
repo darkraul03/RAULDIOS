@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?php $fecha = date('Y')?>
 <!Doctype html>
 <html>
@@ -47,7 +47,7 @@
 			<a href="http://www.twitter.com"><img src="img/twitter_little_pag.jpg"/></a>
 			<a href="http://www.linkdin.com"><img src="img/linkdin_little_pag.jpg"/></a>
 		</section>
-		<p>&copy; <? echo $fecha ?></p>
+		<p>&copy; <?php echo $fecha ?></p>
 	</footer>
 </body>
 </html>

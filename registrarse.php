@@ -47,7 +47,7 @@
 			<img src=""/>
 			<img src=""/>
 		</section>
-		<p>&copy; <? echo $fecha ?></p>
+		<p>&copy; <?php echo $fecha ?></p>
 	</footer>
 </body>
 </html>
