@@ -1,4 +1,3 @@
-
 <?php $fecha = date('Y')?>
 <!Doctype html>
 <html>
@@ -10,11 +9,10 @@
 	<section id="contenedor">
 		<header>
 			<aside id="titulo">
-				<img src="logo/F_logo.png" height="250px" />
+				<img id="logo" src="logo/F_logo.png" height="250px" />
 			</aside>
 			<aside id="iniciar">
 				<a class="link" href="inicio_sesion.php"><span>Iniciar Sesion</span></a>
-				<a class="link" href="registrarse.php"><span>Registrarse</span></a>
 			</aside>
 		</header>
 		<aside>
@@ -47,7 +45,7 @@
 			<a href="http://www.twitter.com"><img src="img/twitter_little_pag.jpg"/></a>
 			<a href="http://www.linkdin.com"><img src="img/linkdin_little_pag.jpg"/></a>
 		</section>
-		<p>&copy; <?php echo $fecha ?></p>
+		<p id="copyright">&copy Nexus <?php echo $fecha?></p>
 	</footer>
 </body>
 </html>
