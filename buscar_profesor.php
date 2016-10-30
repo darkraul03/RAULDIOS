@@ -16,10 +16,15 @@
 			<input type="text" name="apellido"/>
 			<br/><br/>
 			<label> Universidad </label>
-			<input type="text" name="universidad"/>
-			<br/><br/>
+			<select name="universidad">
+				<option> Universidad San Ignacio de Loyola </option>
+				<option> Pontificie Universidad Catolica del Peru </option>
+				<option> Universidad de Lima </option>
+				<option> Universidad Pacifico </option>
+				<option> Universidad Cesar Vallejo</option>
+			</select>
 			<label> Curso  </label>
-			<input type="text" name="universidad"/>
+			<input type="text" name="curso"/>
 			<br/><br/>
 			<input type="submit" value= "Buscar Profesor"/>
 		</form>
