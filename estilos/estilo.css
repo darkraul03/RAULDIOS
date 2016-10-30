@@ -1,0 +1,21 @@
+body{
+	font-family: arial;
+	margin-right: 0;
+	margin-left: 0;
+}
+.link{
+	text-decoration: none;
+}
+#contenedor{
+	background-image: ('img/imagen1.png');
+	border: 2px solid red;
+}
+#titulo{
+	float:left;
+	width:70%;
+	font-size:20px;
+}
+#iniciar{
+	width:30%;
+	margin-right:70%;
+}
