@@ -7,8 +7,7 @@ body{
 	text-decoration: none;
 }
 #contenedor{
-	background-image: ('img/imagen1.png');
-	border: 2px solid red;
+	background-image: url('img/imagen1.png');
 }
 #titulo{
 	float:left;
@@ -18,4 +17,7 @@ body{
 #iniciar{
 	width:30%;
 	margin-right:70%;
+}
+footer{
+	text-align: center;
 }

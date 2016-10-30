@@ -1,7 +1,8 @@
 <?php $fecha = date('Y')?>
 <!Doctype html>
 <html>
-<head>Inicio Sesion</title>
+<head>
+	<title>Inicio Sesion</title>
 	<link rel="stylesheet" href="estilos/estilo.css" />
 </head>
 <body>
@@ -13,6 +14,7 @@
 			<br/><br/>
 			<label> Contraseña </label>
 			<input type="password" name="password"/>
+			<br/><br/>
 			<input type="submit" value= "Iniciar Sesion"/>
 		</form>
 	</section>
