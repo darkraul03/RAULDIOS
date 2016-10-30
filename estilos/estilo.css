@@ -34,9 +34,8 @@ footer {
 #copyright {
 	color: white;
 	font-size: 20px;
-	position: absolute;
-    top: 1400px;
-	left: 45%;
+    padding-top: 10px;
+	padding-left: 45%;
 }
 
 #servicios {
@@ -49,9 +48,8 @@ footer {
 	padding-right: 50px;
 }
 #social {
-	position: absolute;
-	top: 1300px;
-	left: 38%;
+	padding-top: 300px;
+	padding-left: 38%;
 }
 .redes{
 	width: 70px;
