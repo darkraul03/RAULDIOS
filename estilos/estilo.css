@@ -1,7 +1,6 @@
 body{
 	font-family: arial;
-	margin-right: 0;
-	margin-left: 0;	
+	margin: 0;	
 }
 .link{
 	text-decoration: none;
@@ -12,10 +11,10 @@ body{
 #iniciar {
 	background-color: #14C984;
 	opacity: 0.5;
-	float: right;
-	width: 20px;
+	float:right;
 	padding: 10px;
 	text-align: center;
+	width:30%;
 }
 #menu {
 	clear: both;
@@ -27,13 +26,7 @@ body{
 	min-height: 1000px;
 }
 #titulo{
-	float:left;
-	width:70%;
-	font-size:20px;
-}
-#iniciar{
-	width:30%;
-	margin-right:70%;
+	margin-right:50%;
 }
 footer {
 	background-color: #14C984;
