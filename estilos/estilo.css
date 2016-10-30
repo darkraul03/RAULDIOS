@@ -48,6 +48,16 @@ footer {
 	padding-top: 50px;
 	padding-right: 50px;
 }
+#social {
+	position: absolute;
+	top: 1300px;
+	left: 38%;
+}
+.redes{
+	width: 70px;
+	border-radius: 100%;
+	padding: 10px;
+}
 form {				
 		font-size: 30px;
 		font-weight: bold;
@@ -72,26 +82,34 @@ form {
 	}
 	input[type=submit] {
 		font-size: 30px;
-		background-color: green;
+		background-color: #14C984;
 		color: white;
 		width: 100%;
 		padding: 20px;
 	}
-		input[type=submit]:hover {
-		background-color: #0B610B;
+	select {
+		border: none;
+		border-bottom: 5px solid #585858;
+		width: 100%;
+		font-size: 30px;
+		margin: 20px 0;
+	}
+	input[type=submit]:hover {
+		background-color: #0E8557;
 	}
 #inicio {
-	background-image: url(https://escritoradebolsillo.files.wordpress.com/2015/06/librosss.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
 	min-height: 700px;
 }
 #h1inicio {
-	color: white;
 	font-size: 50px;
 	padding-top: 20px;
 	padding-left: 10px;
 }
 .labelinicio {
-	color: white;
+	
+}
+#h1registrarse {
+	font-size: 50px;
+	padding-top: 20px;
+	padding-left: 10px;
 }
