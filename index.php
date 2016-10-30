@@ -8,7 +8,7 @@
 	<section id="contenedor">
 		<header>
 			<aside id="titulo">
-				<img id="logo" src="logo/F_logo.png" height="250px" />
+				<img id="logo" src="logo/F_logo_w.png" height="250px" />
 			</aside>
 			<aside id="iniciar">
 			    //
