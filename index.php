@@ -3,7 +3,7 @@
 <html>
 <head>
 	<title>FINNDER</title>
-	<link rel="stylesheet" href="estilos/estilo.css" />
+	<link rel="stylesheet" href="estilos/estilo.css" type="text/css" media="all" />
 </head>
 <body>
 	<section id="contenedor">
@@ -12,13 +12,11 @@
 				<img src="logo/F_logo.png" height="250px" />
 			</aside>
 			<aside id="iniciar">
-				<a class="link"><span>Iniciar Sesion</span></a>
-				<a class="link"><span>Idioma</span></a>
+				<a class="link" href="inicio_sesion.php"><span>Iniciar Sesion</span></a>
 			</aside>
 		</header>
 		<aside>
 			<p><img src=""/>Profesores</p>
-			<p><img src=""/>Chat</p>
 			<p><img src=""/>Destacados</p>
 			<p><img src=""/>Perfil</p>
 			<p><img src=""/>Favoritos</p>
@@ -29,18 +27,23 @@
 		</section>
 	</section>
 	<footer>
-		<section>
+		<section id="servicios">
 			<span>Contactanos</span>
+			<br/>
 			<span>Soporte</span>
+			<br/>
 			<span>Ayuda</span>
+			<br/>
 			<span>Politica de Privacidad</span>
+			<br/>
 			<span>Terminos de Uso</span>
+			<br/>
 		</section>
-		<section>
-			<img src=""/>
-			<img src=""/>
-			<img src=""/>
-			<img src=""/>
+		<section id="social">
+			<img src="img/fbook_little.jpg"/>
+			<img src="img/youtube_little_pag.jpg"/>
+			<img src="img/twitter_little_pag.jpg"/>
+			<img src="img/linkdin_little_pag.jpg"/>
 		</section>
 		<p>&copy; <? echo $fecha ?></p>
 	</footer>
