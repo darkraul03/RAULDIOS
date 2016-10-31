@@ -5,7 +5,7 @@
 		<a class="link" href="registrarse.php"><span>Registrarme</span></a>
 	</aside>
 	<aside id="titulo">
-		<img id="logo" src="logo/F_logo_w.png" height="180px" />
+		<a href="index.php"><img id="logo" src="logo/F_logo_w.png" height="180px" /></a>
 	</aside>
 	<br/>
 </header>
