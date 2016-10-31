@@ -28,6 +28,8 @@
 			<input type="text" name="curso"/>
 			<br/><br/>
 			<input type="submit" value= "Buscar Profesor"/>
+			<br/><br/>
+			<a href="index.php"> Pagina Principal</a>
 		</form>
 	</section>
 	<footer>

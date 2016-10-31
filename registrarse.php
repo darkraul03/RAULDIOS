@@ -37,6 +37,8 @@
 			</select>
 			<br/><br/>
 			<input type="submit" value= "Registrarme"/>
+			<br/><br/>
+			<a href="index.php"> Pagina Principal</a>
 		</form>
 	</section>
 	<?php include 'pie.php' ?>		

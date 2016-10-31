@@ -16,6 +16,8 @@
 			<input type="password" name="password"/>
 			<br/><br/>
 			<input type="submit" value= "Iniciar Sesion"/>
+			<br/><br/>
+			<a href="index.php"> Pagina Principal</a>
 		</form>
 	</section>
 	<?php include'pie.php' ?>

@@ -134,6 +134,14 @@ input[type=submit] {
 	width: 100%;
 	padding: 20px;
 }
+a{
+	font-size: 30px;
+	background-color: #14C984;
+	color: white;
+	width: 100%;
+	padding: 20px;
+}
+
 select {
 	border: none;
 	border-bottom: 5px solid #585858;
