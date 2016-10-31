@@ -4,7 +4,8 @@ body{
 	overflow: auto;
 }
 header{
-	background-color: rgba(0, 0, 0,0.3);
+	background-color: #424242;
+	border-bottom: 30px solid #2E2E2E;
 }
 .link{
 	text-decoration: none;
