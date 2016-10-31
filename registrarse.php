@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="estilos/estilo.css" />
 </head>
 <body>
+	<?php include 'cabecera.php' ?>
 	<section>
 		<h1 id="h1registrarse"> Registrarse </h1>
 		<form>
@@ -37,8 +38,6 @@
 			</select>
 			<br/><br/>
 			<input type="submit" value= "Registrarme"/>
-			<br/><br/>
-			<a href="index.php"> Pagina Principal</a>
 		</form>
 	</section>
 	<?php include 'pie.php' ?>		

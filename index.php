@@ -6,16 +6,7 @@
 </head>
 <body>
 	<section id="contenedor">
-		<header>
-			<aside id="iniciar">
-				<a class="link" href="inicio_sesion.php"><span>Iniciar Sesión</span></a>
-				<a class="link" href="registrarse.php"><span>Registrarme</span></a>
-			</aside>
-			<aside id="titulo">
-				<img id="logo" src="logo/F_logo_w.png" height="180px" />
-			</aside>
-			<br/>
-		</header>
+		<?php include 'cabecera.php' ?>
 
 		<div id="menu" class="sidenav">
   			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>			
@@ -33,6 +24,7 @@
 		<span id="abrir" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; menú</span>
 
 	</section>
+
 	<footer>
 		<?php include 'pie.php' ?>	
 	</footer>

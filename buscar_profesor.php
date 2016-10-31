@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="estilos/estilo.css" />
 </head>
 <body>
+	<?php include 'cabecera.php' ?>
 	<section>
 		<h1> Buscar Profesor</h1>
 		<form>
@@ -27,9 +28,7 @@
 			<label> Curso  </label>
 			<input type="text" name="curso"/>
 			<br/><br/>
-			<input type="submit" value= "Buscar Profesor"/>
-			<br/><br/>
-			<a href="index.php"> Pagina Principal</a>
+			<input type="submit" value= "Buscar Profesor"/>			
 		</form>
 	</section>
 	<footer>

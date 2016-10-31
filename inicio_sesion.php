@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="estilos/estilo.css" />
 </head>
 <body>
+	<?php include 'cabecera.php' ?>
 	<section id="inicio">
 		<h1 id="h1inicio"> Inicio Sesion </h1>
 		<form>
@@ -16,8 +17,6 @@
 			<input type="password" name="password"/>
 			<br/><br/>
 			<input type="submit" value= "Iniciar Sesion"/>
-			<br/><br/>
-			<a href="index.php"> Pagina Principal</a>
 		</form>
 	</section>
 	<?php include'pie.php' ?>
