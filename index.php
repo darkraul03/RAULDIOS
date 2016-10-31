@@ -3,6 +3,12 @@
 <head>
 	<title>FINNDER</title>
 	<link rel="stylesheet" href="estilos/estilo.css" type="text/css" media="all" />
+	<style>
+		header {
+			background-color: rgba(0, 0, 0,0.3);
+			border: none;
+		}
+	</style>
 </head>
 <body>
 	<section id="contenedor">
