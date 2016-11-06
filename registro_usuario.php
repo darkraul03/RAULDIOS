@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="estilos/estilos_registro.css" type="text/css" > 
+	<link rel="stylesheet" href="estilos/estilos_registro.css" type="text/css" >
+	<link rel="stylesheet" href="estilos/estilo.css" />
 	<script type="text/javascript" src="scripts/jquery-1.9.1.js"></script>
 	<script type="text/javascript" src="scripts/jquery-1.9.1.min.js"></script>
 	
@@ -12,7 +13,7 @@
 </head>
 
 <body>
-
+	<?php include 'cabecera.php' ?>
 	<div class="contenedor-formulario">
 	 	<div class="wrap">
 	    	<form action="procesar_usuario.php" class="formulario" name="formulario_registro" method="post">
@@ -51,6 +52,9 @@
 	    	</form>
 	  	</div>
 	</div>
+	<footer>
+		<?php include 'pie.php' ?>
+	</footer>
 	<script type="text/javascript" src="scripts/formulario_registro.js"></script>
 </body>
 </html>
