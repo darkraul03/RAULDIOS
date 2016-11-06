@@ -16,15 +16,15 @@
 
 		<div id="menu" class="sidenav">
   			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>			
-			<a href="buscar_profesor.php"><img src="img/Contact_book_icon.png" width="30px" /><span>Profesores</span></a>
+			<a href="buscar_profesor.php"><img src="img/Contact_book_icon_w.png" width="30px" /><span>Profesores</span></a>
 			<br/><br/>
-			<a href="#"><img src="img/Star_icon.png" width="30px" /><span>Destacados</span></a>
+			<a href="#"><img src="img/Star_icon_w.png" width="30px" /><span>Destacados</span></a>
 			<br/><br/>
-			<a href="#"><img src="img/User_icon.png" width="30px" /><span>Perfil</span></a>
+			<a href="#"><img src="img/User_icon_w.png" width="30px" /><span>Perfil</span></a>
 			<br/><br/>
-			<a href="#"><img src="img/Love_icon.png" width="30px"/><span>Favoritos</span></a>
+			<a href="#"><img src="img/Love_icon_w.png" width="30px"/><span>Favoritos</span></a>
 			<br/><br/>
-			<a href="#"><img src="img/Gear_icon.png" width="30px"/><span>Ajustes</span></a>
+			<a href="#"><img src="img/Gear_icon_w.png" width="30px"/><span>Ajustes</span></a>
 			<br/><br/>
 		</div>
 		<span id="abrir" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; menú</span>
