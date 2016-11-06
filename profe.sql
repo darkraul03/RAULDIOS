@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Oct 30, 2016 at 05:26 AM
+-- Generation Time: Nov 06, 2016 at 10:16 PM
 -- Server version: 10.1.16-MariaDB
 -- PHP Version: 7.0.9
 
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `profesores`
+-- Database: `finnder`
 --
 
 -- --------------------------------------------------------
@@ -44,7 +44,13 @@ INSERT INTO `profe` (`Nombre`, `Apellido`, `Universidad`, `Curso`, `foto`, `codi
 ('Gisella', 'Figueroa', 'Universidad San Ignacio de Loyola', 'Fundamos de los Sistemas de Informacion', 'https://lh4.ggpht.com/B2UjZIJ0iwp0LfkUnITqp_iYek9PWEXuXLOHl3XYPMR_2zEGsHPR6ruu4OeQKOfvJnJ8=w300', 2),
 ('Manuel', 'Malquichagua', 'Pontificie Universidad Catolica del Peru', 'Calculo I', 'https://lh4.ggpht.com/B2UjZIJ0iwp0LfkUnITqp_iYek9PWEXuXLOHl3XYPMR_2zEGsHPR6ruu4OeQKOfvJnJ8=w300', 3),
 ('Luis', 'Tume', 'Pontificie Universidad Catolica del Peru', 'Calculo II', 'https://lh4.ggpht.com/B2UjZIJ0iwp0LfkUnITqp_iYek9PWEXuXLOHl3XYPMR_2zEGsHPR6ruu4OeQKOfvJnJ8=w300', 4),
-('Cesar', 'Acuña', 'Universidad Cesar Vallejo', 'Quimica Pura', 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/C%C3%A9sar_Acu%C3%B1a_Peralta_-_CAP.jpg/220px-C%C3%A9sar_Acu%C3%B1a_Peralta_-_CAP.jpg', 5);
+('Cesar', 'Acuña', 'Universidad Cesar Vallejo', 'Quimica Pura', 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/C%C3%A9sar_Acu%C3%B1a_Peralta_-_CAP.jpg/220px-C%C3%A9sar_Acu%C3%B1a_Peralta_-_CAP.jpg', 5),
+('Jorge', 'Nolasco Valenzuela', 'Universidad San Ignacio de Loyola', 'Programacion Orientada a Objetos', '', 6),
+('Carlos', 'Pardo Figueroa', 'Universidad San Ignacio de Loyola', 'Western Civilization', '', 7),
+('Hugo ', 'Gonzales Aguilar', 'Universidad San Ignacio de Loyola', 'Total Wellness', '', 8),
+('Alexander ', 'Carlos de la Cruz ', 'Universidad San Ignacio de Loyola', 'College Algebra', '', 9),
+('Ciro', 'Alegria Varona', 'Ponticie Universidad Catolica del Peru', 'Filosofia Social', '', 10),
+('Sheyla', 'Blumen Cohen', 'Pontifice Universidad Catolica del Peru', 'Seminario de Tesis', '', 11);
 
 --
 -- Indexes for dumped tables
@@ -64,7 +70,7 @@ ALTER TABLE `profe`
 -- AUTO_INCREMENT for table `profe`
 --
 ALTER TABLE `profe`
-  MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
