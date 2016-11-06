@@ -15,40 +15,36 @@
 
 	<div class="contenedor-formulario">
 	 	<div class="wrap">
-	    	<form action="procesar_usuario1.php" class="formulario" name="formulario_registro" method="post">
+	    	<form action="procesar_usuario.php" class="formulario" name="formulario_registro" method="post">
 	      		<div>
 			        <div class="input-group">
-			          	<input type="text" id="nombres" name="nombres">
+			          	<input type="text" id="usuario" name="usuario" required="required">
+			          	<label class="label" for="usuario">Usuario:</label>
+			        </div>
+			        <div class="input-group">
+			          	<input type="text" id="nombres" name="nombres" required="required">
 			          	<label class="label" for="nombres">Nombres:</label>
 			        </div>
 			        <div class="input-group">
-			          	<input type="text" id="apellidos" name="apellidos">
+			          	<input type="text" id="apellidos" name="apellidos" required="required">
 			          	<label class="label" for="apellidos">Apellidos:</label>
 			        </div>
 			        <div class="input-group">
-			          	<input type="email" id="correo" name="correo">
+			          	<input type="text" id="apellidos" name="universidad" required="required">
+			          	<label class="label" for="apellidos">Universidad:</label>
+			        </div>
+			        <div class="input-group">
+			          	<input type="email" id="correo" name="correo" required="required">
 			          	<label class="label" for="correo">Correo:</label>
 			        </div>
 			        <div class="input-group">
-			          	<input type="password" id="pass" name="pass">
+			          	<input type="password" id="pass" name="pass" required="required">
 			          	<label class="label" for="pass">Contraseña:</label>
 			        </div>
 			        <div class="input-group">
-			          	<input type="password" id="pass2" name="pass2">
+			          	<input type="password" id="pass2" name="pass2" required="required">
 			          	<label class="label" for="pass2">Repetir Contraseña:</label>
 			        </div>
-			        <!--
-			        <div class="input-group radio">
-			          	<input type="radio" name="sexo" id="hombre" value="Hombre">
-			          	<label for="hombre">Hombre</label>
-
-			          	<input type="radio" name="sexo" id="mujer" value="Mujer">
-			          	<label for="mujer">Mujer</label>
-			        </div>
-			        <div class="input-group checkbox">
-			          	<input type="checkbox" name="terminos" id="terminos" value="true">
-			          	<label for="terminos">Acepto los Terminos y Condiciones</label>
-			        </div>-->
 
 	        		<input type="submit" id="btn-submit" value="Enviar">
 	      		</div>

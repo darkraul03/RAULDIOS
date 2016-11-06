@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Nov 06, 2016 at 10:16 PM
+-- Generation Time: Nov 07, 2016 at 12:28 AM
 -- Server version: 10.1.16-MariaDB
 -- PHP Version: 7.0.9
 
@@ -46,11 +46,11 @@ INSERT INTO `profe` (`Nombre`, `Apellido`, `Universidad`, `Curso`, `foto`, `codi
 ('Luis', 'Tume', 'Pontificie Universidad Catolica del Peru', 'Calculo II', 'https://lh4.ggpht.com/B2UjZIJ0iwp0LfkUnITqp_iYek9PWEXuXLOHl3XYPMR_2zEGsHPR6ruu4OeQKOfvJnJ8=w300', 4),
 ('Cesar', 'Acuña', 'Universidad Cesar Vallejo', 'Quimica Pura', 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/C%C3%A9sar_Acu%C3%B1a_Peralta_-_CAP.jpg/220px-C%C3%A9sar_Acu%C3%B1a_Peralta_-_CAP.jpg', 5),
 ('Jorge', 'Nolasco Valenzuela', 'Universidad San Ignacio de Loyola', 'Programacion Orientada a Objetos', '', 6),
-('Carlos', 'Pardo Figueroa', 'Universidad San Ignacio de Loyola', 'Western Civilization', '', 7),
-('Hugo ', 'Gonzales Aguilar', 'Universidad San Ignacio de Loyola', 'Total Wellness', '', 8),
-('Alexander ', 'Carlos de la Cruz ', 'Universidad San Ignacio de Loyola', 'College Algebra', '', 9),
-('Ciro', 'Alegria Varona', 'Ponticie Universidad Catolica del Peru', 'Filosofia Social', '', 10),
-('Sheyla', 'Blumen Cohen', 'Pontifice Universidad Catolica del Peru', 'Seminario de Tesis', '', 11);
+('Carlos', 'Pardo Figueroa', 'Universidad San Ignacio de Loyola', 'Western Civilization', 'http://cde.laprensa.com.pe//ima/0/0/0/1/6/16285.jpg', 7),
+('Hugo ', 'Gonzales Aguilar', 'Universidad San Ignacio de Loyola', 'Total Wellness', 'http://dina.concytec.gob.pe/appDirectorioCTI/UploadFotoPath.do?tipo=visualizar_archivo&id_investigador=19415&ruta=/documents/docInvestigadores/19415/imagenes/FOTO%20HUGO.jpg&content_type=image/jpeg', 8),
+('Alexander ', 'Carlos de la Cruz ', 'Universidad San Ignacio de Loyola', 'College Algebra', 'https://lh5.googleusercontent.com/-jKRfRXju-5s/AAAAAAAAAAI/AAAAAAAAAP0/0T6knfkVzHw/photo.jpg', 9),
+('Ciro', 'Alegria Varona', 'Ponticie Universidad Catolica del Peru', 'Filosofia Social', 'http://files.pucp.edu.pe/puntoedu/wp-content/uploads/2015/11/ciro-alegria-550x367.jpg', 10),
+('Sheyla', 'Blumen Cohen', 'Pontifice Universidad Catolica del Peru', 'Seminario de Tesis', 'http://files.pucp.edu.pe/puntoedu/wp-content/uploads/2014/10/sheyla-blumen-550x366.jpg', 11);
 
 --
 -- Indexes for dumped tables

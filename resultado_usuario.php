@@ -9,8 +9,8 @@
 		<div class="contenedor-formulario">
 	 		<div class="wrap">
 			    <h1>Usuario registrado </h1>		
-				<form action="procesar_usuario1.php" method="post">
-					<a href="registro_usuario1.php">Regresar</a>
+				<form action="procesar_usuario.php" method="post">
+					<a href="registro_usuario.php">Regresar</a>
 				</form>
 			</div>
 		</div>

@@ -1,0 +1,236 @@
+* {
+    font-family:sans-serif;
+    list-style:none;
+    text-decoration:none;
+    margin:2px;
+    padding:2px;
+}
+
+body, html { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    color: #353535;
+}
+
+
+fieldset {
+    border: 1px solid #E1E1E1;       
+    padding: 3px 3px 3px 13px !important;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-bottom: 0px;
+    border-style: solid !important;
+}
+
+fieldset legend {    
+    color: #555;
+    padding: 5px 10px ;
+    font-size: 12px !important;  
+    font-family: Arial,'verdana','Liberation Sans',Freesans,sans-serif !important;  
+}
+
+.el02 { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    color: #353535;
+    text-align: left;
+    background-color: #f3f3f3;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c9c9c9;
+}
+
+.txt-box-campos {
+    font-family: Arial,'verdana','Liberation Sans',Freesans,sans-serif;
+    font-size: 9pt;
+    color: #666;
+    background: white;
+    border: 1px solid #d4d3d3;
+    box-shadow: 0 0 5px #DDD inset;
+    padding: 5px 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    outline: none;
+    border-radius:5px;
+    text-align:center;
+    width:250px;
+}
+
+
+.txt-box-campos-oblig {            
+    font-family: Arial,'verdana','Liberation Sans',Freesans,sans-serif;            
+    font-size: 9pt;           
+    color: #7f6c6d;        
+    background: #fff;        
+    border: 1px solid #fc7b84;           
+    border-radius: 5px;          
+    box-shadow: 0 0 5px #DDD inset;          
+    padding: 5px 10px;          
+    padding-bottom: 5px;          
+    padding-top: 5px;          
+    outline: none;        
+    text-align:center;         
+    width:250px;       
+}
+        
+        
+
+.txt-box-campos-obliga {           
+    font-family: Arial,'verdana','Liberation Sans',sans-serif;          
+    font-size: 9pt;       
+    color: #7f6c6d;     
+    background: #fbffbf;     
+    border: 1px solid #3875d7;   
+    border-radius: 5px;   
+    box-shadow: 0 0 5px #DDD inset;    
+    padding: 5px 10px;      
+    padding-bottom: 5px;   
+    padding-top: 5px;    
+    outline: none;     
+    text-align:center;    
+    background-size: 14px 14px;     
+    background-position: 5px 5px;
+    background-repeat: no-repeat;   
+    width:250px;   
+}
+
+.titulo{
+    font-weight: bolder; 
+    font-size: 1.6em;
+    font-style: italic;
+}
+
+
+.subtitulo-int {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;  
+    text-transform: uppercase;
+    color: #ff8304;
+    font-weight: 100;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.grilla {
+    border: 1px solid #e2e2e2;
+    border-collapse: collapse;
+    font-size: 8.5pt;
+    text-align: left;
+    padding-left: 8px;
+    width: 100%;
+}
+
+.grilla-prioridad {
+    border-width: 1px;
+    border-color: #e2e2e2;
+    border-style: solid;
+    border-collapse: collapse;
+    font-size: 9pt;
+    height: 25px;
+    text-align: left;
+    padding-left: 8px;
+}
+
+.grilla thead td {
+    font-size: 8.5pt;
+    font-weight: bold;
+    background-color: #adadad;
+    height: 25px;
+    text-align: center;
+    color: #FFF;
+    border-left: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.grilla {
+    border: 1px solid #e2e2e2;
+    border-collapse: collapse;
+    font-size: 8.5pt;
+    text-align: left;
+    padding-left: 8px;
+    width: 100%;
+}
+
+.grilla-prioridad {
+    border-width: 1px;
+    border-color: #e2e2e2;
+    border-style: solid;
+    border-collapse: collapse;
+    font-size: 9pt;
+    height: 25px;
+    text-align: left;
+    padding-left: 8px;
+}
+
+.grilla thead td {
+    font-size: 8.5pt;
+    font-weight: bold;
+    background-color: #adadad;
+    height: 25px;
+    text-align: center;
+    color: #FFF;
+    border-left: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.grilla thead td a {
+    float: right;
+}
+
+.grilla tbody td {
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 20px;
+    padding:5px;
+    color:Gray;
+    font-size:12px;
+    border-left: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    }
+    
+.grilla tbody tr:hover td {
+    background: #fbffbf;
+    color: #ef7400;
+    cursor:pointer;
+}
+
+.skip {
+    border-left: 1px solid rgb(255, 164, 87);
+    border-right: 1px solid rgb(255, 164, 87);
+    border-top: 1px solid rgb(255, 164, 87);
+    border-bottom: 1px solid rgb(237, 115, 0);
+    font: bold 11px "lucida grande",tahoma,verdana,arial,sans-serif;
+    padding: 5px 18px;
+    border-radius: 3px;
+    width: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size-adjust: none;
+    font-stretch: normal;
+    box-shadow: inset 0px 1px 0px 0px #ffa558;
+    text-shadow: 0px -1px 1px #e06d00;
+    -ms-linear-gradient:(rgb(255, 157, 73) 0%, rgb(237, 115, 0) 50%, rgb(237, 115, 0) 50%, rgb(237, 115, 0) 100%);
+    background-color: rgb(255, 164, 87);
+    -webkit-box-shadow: inset 0 0px 0 0 #b1b9cb;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.skip:hover, submit.skip, .skip-controls-unblock:hover, submit.skip-controls-unblock, .skip-enabled:hover {
+    cursor: pointer;
+    -ms-linear-gradient:(rgb(255, 164, 87) 0%, rgb(237, 115, 0) 50%, rgb(239, 116, 0) 50%, rgb(224, 69, 0) 100%);
+    background-color: rgb(239, 116, 0);
+    cursor: pointer;
+}
+
+.skip:active, submit.skip, .skip-controls-unblock.active, .skip-enabled:hover {
+    box-shadow: inset 0px 0px 20px 0px #dc5800, 0px 1px 0px white;
+    -webkit-box-shadow: inset 0 0 20px 0 #dc5800, 0 1px 0 white;
+    cursor: pointer;
+}
+    

@@ -5,5 +5,11 @@
 	
 	mysql_select_db('finnder') or die(mysql_error());
 
-	$request = mysql_query("SELECT * FROM ")
+	$nombre = 
+	$apellido = 
+	$uni = 
+	$curso = 
+	$
+
+	$request = mysql_query("SELECT * FROM profe WHERE ")
 ?>
