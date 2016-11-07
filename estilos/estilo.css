@@ -216,3 +216,27 @@ input[type=submit]:hover {
 	background-size: cover;
 
 }
+
+.calificar{ 
+	color:grey;
+}
+
+
+.estrella[type = "radio"]{ 
+	display:none;
+}
+
+.clasificacion {
+  	direction: rtl;
+  	unicode-bidi: bidi-override;
+}
+
+.calificar:hover,
+.calificar:hover ~ .calificar {
+  	color: orange;
+}
+
+.estrella[type="radio"]:checked ~ label {
+  	color: orange;
+}
+
