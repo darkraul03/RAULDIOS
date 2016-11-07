@@ -81,6 +81,7 @@ footer {
 	background-color: #14C984;
 	height: 230px;
 	margin: 0;
+	clear: both;
 }
 
 #copyright {
@@ -160,4 +161,58 @@ input[type=submit]:hover {
 	font-size: 50px;
 	padding-top: 20px;
 	padding-left: 10px;
+}
+
+#lista {
+	width: 45%;
+	float: left;
+	border-radius: 50px;
+	border: 10px solid #2E2E2E;
+	text-align: center;
+	padding: 10px;
+	min-height: 300px;
+	margin: 10px;
+	background-color: rgba(20, 201, 132, 0.5);
+}
+
+#lista img {
+	width: 40%;
+	float: left;
+	border-radius: 50px;
+	border: 5px solid #2E2E2E;
+}
+
+#lista p {
+	
+	font-size: 25px;
+	text-align: left;
+	padding-left: 20px;
+	margin-left: 45%;
+}
+
+#lista span{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#b_profesores {
+	-webkit-appearance: button;
+    -moz-appearance: button;
+	appearance: button;
+	width: 90%;
+	color: white;
+	padding: 20px;
+	font-size: 30px;
+	background-color: #14C984;
+	margin: 20px auto;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#contlista {
+	background-image: url(https://escritoradebolsillo.files.wordpress.com/2015/06/librosss.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
 }
