@@ -26,21 +26,25 @@
 	</head>
 	<body>
 		<?php include 'cabecera.php' ?>
-		<section>
+		<section id="contlista">
 			<h1> Lista Profesores </h1>
-			<?php 
-			# Paso 4: iterar
-			while ($fila = mysql_fetch_assoc($request)) {
-			?>
-								
-				<img src="<?php echo $fila['foto'] ?>" height ="200"/>
-				<p><?php echo utf8_encode($fila['Nombre']) ?></p>
-				<p><?php echo utf8_encode($fila['Apellido']) ?></p>
-				<p><?php echo utf8_encode($fila['Universidad']) ?></p>
-				<p><?php echo utf8_encode($fila['Curso']) ?></p>
-								
-			
-			<?php } ?>
+			<div>
+				<?php 
+				# Paso 4: iterar
+				while ($fila = mysql_fetch_assoc($request)) {
+				?>
+					<div id="lista">				
+						<img src="<?php echo $fila['foto'] ?>" width ="200"/>
+						<span>Nombre:</span>
+						<p><?php echo utf8_encode($fila['Nombre']) ?> <?php echo utf8_encode($fila['Apellido']) ?></p>
+						<span>Universidad:</span>
+						<p><?php echo utf8_encode($fila['Universidad']) ?></p>
+						<span>Curso:</span>
+						<p><?php echo utf8_encode($fila['Curso']) ?></p>
+					</div>				
+				
+				<?php } ?>
+			</div>
 			<a id="b_profesores" href="buscar_profesor.php">Buscar Profesores</a>
 
 		</section>
