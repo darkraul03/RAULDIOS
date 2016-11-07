@@ -11,7 +11,7 @@
 	 		<div class="wrap">
 			    <h1>Usuario registrado </h1>		
 				<form action="procesar_usuario.php" method="post">
-					<a href="registro_usuario.php">Regresar</a>
+					<a href="index.php">Regresar</a>
 				</form>
 			</div>
 		</div>

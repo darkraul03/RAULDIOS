@@ -16,7 +16,7 @@
 
 		<div id="menu" class="sidenav">
   			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>			
-			<a href="lista_profesores.php"><img src="img/Contact_book_icon_w.png" width="30px" /><span>Profesores</span></a>
+			<a href="buscar_profesor.php"><img src="img/Contact_book_icon_w.png" width="30px" /><span>Profesores</span></a>
 			<br/><br/>
 			<a href="#"><img src="img/Star_icon_w.png" width="30px" /><span>Destacados</span></a>
 			<br/><br/>

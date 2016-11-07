@@ -50,8 +50,12 @@
 	        		<input type="submit" id="btn-submit" value="Enviar">
 	      		</div>
 	    	</form>
+	    	<?php if(isset($_GET['error'])){ ?>
+				<p>Las Contraseñas no son iguales</p>
+			<?php } ?>
 	  	</div>
 	</div>
+
 	<footer>
 		<?php include 'pie.php' ?>
 	</footer>
