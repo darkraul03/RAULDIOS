@@ -1,0 +1,29 @@
+#descripcion{
+	background-color: rgba(0, 0, 0,0.3);
+	color:white;
+	padding: 25px;
+	float:right;
+	margin-left: 25%;
+	font-size:22px;
+}
+#left_B{
+	margin-right:50%;
+}
+#left_B h2{
+	font-size:45px;
+	color: green;
+}
+#img_B{
+	float: right;
+}
+#right_I{
+	float:right;
+	margin-left:55%;
+}
+#right_I h2{
+	font-size: 45px;
+	color: green;
+}
+#foot{
+	clear: both;
+}
