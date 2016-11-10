@@ -27,8 +27,13 @@
 	<body>
 		<?php include 'cabecera.php' ?>
 		<section id="contlista">
+			<form action="busqueda_resultado.php" method="post">
+				<input type="text" name="nombre" value="Nombre"/>
+				<input type="text" name="apellido" value="Apellido"/>
+				<input type="submit" value="Buscar" />
+			</form>
 			<h1> Lista Profesores </h1>
-			<a id="b_profesores" href="buscar_profesor.php">Buscar Profesores</a>
+			<a id="b_profesores" href="buscar_profesor.php">Busqueda Avanzada</a>
 			<div>
 				<?php 
 				# Paso 4: iterar
@@ -59,12 +64,11 @@
 					</div>				
 				<?php } ?>
 			</div>
-			<a id="b_profesores" href="buscar_profesor.php">Buscar Profesores</a>
+			<a id="b_profesores" href="buscar_profesor.php">Busqueda Avanzada</a>
 		</section>
 	<footer>
 		<?php include 'pie.php' ?>
 	</footer>
 </body>
 </html>
-<!--$request = mysql_query("SELECT * FROM profes WHERE nombre like $nombre and apellido like $apellido and universidad like $universidad and curso like $curso" -->
 

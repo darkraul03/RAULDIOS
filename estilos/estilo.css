@@ -216,6 +216,10 @@ input[type=submit]:hover {
 	background-size: cover;
 
 }
+#contlista > h1{
+	font-size:20px;
+	color:white;
+}
 
 .calificar{ 
 	color:grey;
