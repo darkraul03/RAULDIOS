@@ -3,7 +3,6 @@
 <head>
 	<title>FINNDER</title>
 	<link rel="stylesheet" href="estilos/estilo.css" type="text/css" media="all" />
-	<link rel="stylesheet" href="estilos/estilo2.css" type="text/css" media="all" />
 	<style>
 		header {
 			background-color: rgba(0, 0, 0,0.3);
@@ -32,35 +31,36 @@
 		<section id="descripcion">
 			<section id="bienvenida">
 				<div id="img_B">
-					<img src="#">
+					<img src="img/world.png" width="300px">
 				</div>
 				<div id="left_B">
 					<h2>BIENVENIDO A FINNDER</h2>
 					<p>
-						Finnder es una pagina web dedicado especialmente a los alumnos universitarios. Por Alumnos para alumnos.
+						Finnder es una pagina web dedicada especialmente a los alumnos universitarios. Por Alumnos para alumnos.
 					</p>
 					<p>
-						Finnder es la ayuda que buscabas al momento de elegir con que profesor matricularte para tu nuevo periodo universitario.
+						Finnder es la ayuda que buscabas al momento de elegir con qué profesor matricularte para tu nuevo periodo universitario.
 					</p>
 					<p>
-						Ofrecemos una variada lista de profesores dentro de nuestra base de datos para que, probablemente, puedas encontrar a los profesores del curso que buscas de tu universidad.
+						Ofrecemos una lista completa de profesores dentro de nuestra base de datos, para que puedas encontrar a los profesores del curso que buscas de tu universidad.
 					</p>
 				</div>
 			</section>
 			<section id="innnovar">
+				<div id="img_I">
+					<img src="img/Finn.png" width="250px">
+				</div>
 				
 				<div id="right_I">
 					<h2>CREADO PARA INNOVAR</h2>
 					<p>
-						Finnder fue creado por alumnos de la Universidad San Ignacion de Loyola
+						Finnder fue creado por alumnos de la Universidad San Ignacion de Loyola.
 					</p>
 					<p>
-						Entendemos las necesitades de los alumnos y apuntamos a poder satisfacer todas estas
+						Entendemos las necesitades de los alumnos y apuntamos a poder satisfacer todas estas.
 					</p>
 				</div>
-				<div id="img_I">
-					<img src="#">
-				</div>
+				
 			</section>
 			<section id="foot"></section>
 			
