@@ -1,6 +1,6 @@
 <?php
 
-	error_reporting(E_ERROR);
+	error_reporting(E_ERROR | E_WARNING | E_PARSE);
 	# Paso 1: conectarse
 	mysql_connect('localhost','root','') or die(mysql_error());
 	#Paso 2: seleccionar
@@ -17,7 +17,7 @@
 
 	$request = mysql_query("SELECT * FROM profe")
 ?>
-<?php $fecha = date('Y')?>
+
 <!Doctype html>
 <html>
 	<head>
@@ -28,6 +28,7 @@
 		<?php include 'cabecera.php' ?>
 		<section id="contlista">
 			<h1> Lista Profesores </h1>
+			<a id="b_profesores" href="buscar_profesor.php">Buscar Profesores</a>
 			<div>
 				<?php 
 				# Paso 4: iterar
@@ -56,11 +57,9 @@
 						<span>Curso:</span>
 						<p><?php echo utf8_encode($fila['Curso']) ?></p>
 					</div>				
-				
 				<?php } ?>
 			</div>
 			<a id="b_profesores" href="buscar_profesor.php">Buscar Profesores</a>
-
 		</section>
 	<footer>
 		<?php include 'pie.php' ?>
