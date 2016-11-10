@@ -72,7 +72,7 @@ header{
 	background-image: url(https://escritoradebolsillo.files.wordpress.com/2015/06/librosss.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	min-height: 1000px;
+	min-height: 1155px;
 }
 #titulo{
 	margin-right:40%;
@@ -240,3 +240,43 @@ input[type=submit]:hover {
   	color: orange;
 }
 
+#descripcion{
+	background-color: rgba(0, 0, 0,0.3);
+	color:white;
+	padding: 25px;
+	float:right;
+	margin-left: 25%;
+	font-size:22px;
+}
+#left_B{
+	margin-right:50%;
+}
+#left_B h2{
+	font-size:45px;
+	color: #14C984;
+	border-top: 5px solid #14C984;
+	border-bottom: 5px solid #14C984;
+	padding: 5px;
+}
+#img_B{
+	float: right;
+	margin-right: 150px;
+}
+#right_I{
+	margin-left:55%;
+}
+#right_I h2{
+	font-size: 45px;
+	color: #14C984;
+	border-top: 5px solid #14C984;
+	border-bottom: 5px solid #14C984;
+	padding: 5px;
+}
+#img_I {
+	float: left;
+	width: 40%;
+	margin-left: 170px;
+}
+#foot{
+	clear: both;
+}
