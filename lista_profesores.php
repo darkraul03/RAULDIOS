@@ -1,4 +1,8 @@
 <?php
+	session_start();
+?>
+
+<?php
 
 	error_reporting(E_ERROR | E_WARNING | E_PARSE);
 	# Paso 1: conectarse

@@ -1,8 +1,13 @@
 <header>
 	<aside id="iniciar">
-		<a class="link" href="index.php">Inicio</a>
-		<a class="link" href="inicio_sesion.php"><span>Iniciar Sesión</span></a>
-		<a class="link" href="registro_usuario.php"><span>Registrarme</span></a>
+		<?php if (isset($_SESSION['Nombre'])){ ?>
+			<a class="link" href="cerrar_sesion.php">Cerrar Sesion</a>
+			<a class="link" href="index.php"><span><?php echo $_SESSION['Nombre'] ?></span></a>
+		<?php }else{ ?>
+			<a class="link" href="index.php">Inicio</a>
+			<a class="link" href="inicio_sesion.php"><span>Iniciar Sesión</span></a>
+			<a class="link" href="registro_usuario.php"><span>Registrarme</span></a>
+		<?php } ?>
 	</aside>
 	<aside id="titulo">
 		<a href="index.php"><img id="logo" src="logo/F_logo_w.png" height="180px" /></a>
