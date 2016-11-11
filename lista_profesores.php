@@ -6,6 +6,7 @@
 	#Paso 2: seleccionar
 	mysql_select_db('finnder') or die(mysql_error());
 	
+	
 ?>
 
 <?php
@@ -16,6 +17,7 @@
 	$curso = $_POST['curso'];	
 
 	$request = mysql_query("SELECT * FROM profe")
+
 ?>
 
 <!Doctype html>
@@ -23,14 +25,17 @@
 	<head>
 		<title>Lista Profesores</title>
 		<link rel="stylesheet" href="estilos/estilo.css" />
+		<link rel="stylesheet" type="text/css" href="estilos/estilos_listado.css">
+		<script type="text/javascript" src="scripts/jquery-1.9.1.js"></script>
+		<script type="text/javascript" src="scripts/jquery-1.9.1.min.js"></script>
 	</head>
 	<body>
 		<?php include 'cabecera.php' ?>
 		<section id="contlista">
 			<form action="busqueda_resultado.php" method="post">
-				<input type="text" name="nombre" value="Nombre"/>
-				<input type="text" name="apellido" value="Apellido"/>
-				<input type="submit" value="Buscar" />
+				<input type="text" id="nombre" name="nombre" class="txt-box-campos" placeholder="Ingresar Nombres" tabindex="1" />
+				<input type="text" id="apellido" name="apellido" class="txt-box-campos" placeholder="Ingresar Apellidos" tabindex="2" />
+				<input type="submit" value="Buscar" tabindex="3" />
 			</form>
 			<h1> Lista Profesores </h1>
 			<a id="b_profesores" href="buscar_profesor.php">Busqueda Avanzada</a>
@@ -69,6 +74,22 @@
 	<footer>
 		<?php include 'pie.php' ?>
 	</footer>
+	<script type="text/javascript">	
+		$(document).ready(function () {
+			$("#nombre").focus(function () {
+                $(this).removeClass("txt-box-campos").addClass("txt-box-campos-obliga");
+            });
+            $("#nombre").blur(function () {
+                $(this).removeClass("txt-box-campos-obliga").addClass("txt-box-campos");
+            });
+            $("#apellido").focus(function () {
+                $(this).removeClass("txt-box-campos").addClass("txt-box-campos-obliga");
+            });
+            $("#apellido").blur(function () {
+                $(this).removeClass("txt-box-campos-obliga").addClass("txt-box-campos");
+            });
+        });
+	</script>
 </body>
 </html>
 

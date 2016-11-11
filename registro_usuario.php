@@ -55,7 +55,7 @@
 			<?php } ?>
 	  	</div>
 	</div>
-
+	<script src="scripts/reloj.js"></script>
 	<footer>
 		<?php include 'pie.php' ?>
 	</footer>
