@@ -1,3 +1,7 @@
+<?php
+	session_start();
+?>
+
 <!Doctype html>
 <html>
 <head>
@@ -34,7 +38,11 @@
 					<img src="img/world.png" width="300px">
 				</div>
 				<div id="left_B">
-					<h2>BIENVENIDO A FINNDER</h2>
+					<?php if (isset($_SESSION['Nombre'])){ ?>
+						<h2 style="text-transform: uppercase;">BIENVENIDO <?php echo $_SESSION['Nombre'] ?></h2>
+					<?php }else{ ?>
+						<h2>BIENVENIDO A FINNDER</h2>
+					<?php } ?>
 					<p>
 						Finnder es una pagina web dedicada especialmente a los alumnos universitarios. Por Alumnos para alumnos.
 					</p>
