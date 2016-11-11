@@ -31,6 +31,7 @@
 	#img_B{
 		float: none;
 		margin: 0 auto;
+		text-align: center;
 	}
 	#right_I{
 		margin-left: 0;
@@ -45,8 +46,9 @@
 	}
 	#img_I {
 		float: none;
-		width: 40%;
+		width: 100%;
 		margin-left: 0;
+		text-align: center;
 	}
 	footer {
 		min-height: 500px;
@@ -64,6 +66,7 @@
 	}
 	#titulo{
 	margin-right:0;
+	text-align: center;
 	}
 
 }
