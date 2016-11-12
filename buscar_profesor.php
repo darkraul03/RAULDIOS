@@ -9,7 +9,7 @@
 </head>
 <body>
 	<?php include 'cabecera.php' ?>
-	<section>
+	<section id="busqueda">
 	<?php if(isset($_SESSION['Nombre'])){ ?>
 		<h1> Buscar Profesor</h1>
 		<form action="busqueda_resultado.php" method="post">
@@ -47,9 +47,15 @@
 			<input type="submit" value= "Buscar Profesor"/>			
 		</form>
 	<?php }else{ ?>
-		<h1> REGISTRESE COMO USUARIO </h1>
-		<p>Registrese y disfrute de los beneficios de FINNDER exclusivo para nuestros miembros</p>
-		<p>¡Es gratis y siempre lo será! </p>
+		<div id="nologin">
+			<h1> ¡REGÍSTRESE O INICIE SESIÓN! </h1>
+			<p>Regístrese o inicie sesión para disfrutar de los beneficios de FINNDER exclusivo para nuestros miembros</p>
+			<p>¡Es gratis y siempre lo será! </p>
+		</div>
+		<div id="nologinlink">
+			<a href="inicio_sesion.php">Iniciar sesión</a>
+			<a href="registro_usuario.php">Regisrarse</a>
+		</div>
 	<?php } ?>
 	</section>
 	<footer>
