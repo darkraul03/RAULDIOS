@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="estilos/estilos_listado.css">
 	<link rel="stylesheet" href="estilos/estilos_reloj.css">
 	<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="estilos/mediaquery.css" />
 	<script type="text/javascript" src="scripts/jquery-1.9.1.js"></script>
 	<script type="text/javascript" src="scripts/jquery-1.9.1.min.js"></script>
 </head>

@@ -12,7 +12,11 @@
 			background-color: rgba(0, 0, 0,0.3);
 			border: none;
 		}
+		.link {
+			border-left: 10px solid rgba(20, 201, 132, 0.5);
+		}
 	</style>
+	<link rel="stylesheet" href="estilos/mediaquery.css" type="text/css" media="all" />
 </head>
 <body>
 	<section id="contenedor">

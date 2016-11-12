@@ -6,6 +6,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="estilos/estilos_registro.css" type="text/css" >
 	<link rel="stylesheet" href="estilos/estilo.css" />
+	<link rel="stylesheet" href="estilos/mediaquery.css" />
 	<script type="text/javascript" src="scripts/jquery-1.9.1.js"></script>
 	<script type="text/javascript" src="scripts/jquery-1.9.1.min.js"></script>
 	

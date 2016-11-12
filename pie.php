@@ -1,14 +1,14 @@
 <footer>
 	<section id="servicios">
-		<span><a class="link" href="#">Contactanos</a></span>
+		<span><a class="link1" href="#">Contactanos</a></span>
 		<span> | </span>
-		<span><a class="link" href="#">Soporte</a></span>
+		<span><a class="link1" href="#">Soporte</a></span>
 		<span> | </span>
-		<span><a class="link" href="#">Ayuda</a></span>
+		<span><a class="link1" href="#">Ayuda</a></span>
 		<span> | </span>
-		<span><a class="link" href="#">Politica de Privacidad</a></span>
+		<span><a class="link1" href="#">Politica de Privacidad</a></span>
 		<span> | </span>
-		<span><a class="link" href="#">Terminos de Uso</a></span>
+		<span><a class="link1" href="#">Terminos de Uso</a></span>
 	</section>
 	<section id="social">
 		<a href="http://www.facebook.com"><img class="redes" src="img/fbook_little.jpg"/></a>
